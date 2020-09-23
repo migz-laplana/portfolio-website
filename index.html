@@ -1,0 +1,530 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<title>CV - Boxed</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+
+
+	<!-- Font -->
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
+
+	<!-- Stylesheets -->
+
+	<link href="common-css/bootstrap.css" rel="stylesheet">
+
+	<link href="common-css/ionicons.css" rel="stylesheet">
+
+	<link href="common-css/fluidbox.min.css" rel="stylesheet">
+
+	<link href="01-cv-portfolio/css/styles.css" rel="stylesheet">
+
+	<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
+
+
+	<style>
+		/* <!-- custom exp styles --> */
+
+		.overlay {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			height: 100%;
+			width: 100%;
+			opacity: 0;
+			transition: .5s ease;
+			background-color: #008CBA;
+			padding: inherit;
+		}
+
+		.proj-box:hover .overlay {
+			opacity: 0.78;
+		}
+
+		.text {
+			color: white;
+			font-size: 85%;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			text-align: center;
+		}
+
+		.text>p {
+			color: white;
+
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div class="heading-wrapper">
+				<div class="row">
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-location-outline"></i>
+							<div class="right-area">
+								<h5>B8 L14 INVESTORS ST</h5>
+								<h5>BACOOR, CAVITE (PH)</h5>
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
+
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-telephone-outline"></i>
+							<div class="right-area">
+								<h5>(+63) 995 642 8034</h5>
+								<h6>MON-SAT, 6AM-7PM, UTC+8</h6>
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
+
+					<div class="col-sm-6 col-md-6 col-lg-4">
+						<div class="info">
+							<i class="icon ion-ios-chatboxes-outline"></i>
+							<div class="right-area">
+								<h5>maplaplana13@gmail.com</h5>
+								<h6>REPLY IN 24 HOURS</h6>
+							</div><!-- right-area -->
+						</div><!-- info -->
+					</div><!-- col-sm-4 -->
+				</div><!-- row -->
+			</div><!-- heading-wrapper -->
+
+			<a class="downlad-btn" href="#">Download CV</a>
+		</div><!-- container -->
+	</header>
+
+	<section class="intro-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1 col-lg-2"></div>
+				<div class="col-md-10 col-lg-8">
+					<div class="intro">
+						<div class="profile-img"><img src="images/profile-pic.jpg" alt=""></div>
+						<h2><b>Migz Laplana</b></h2>
+						<h4 class="font-yellow">Web Developer || Computer Engineer</h4>
+						<ul class="information margin-tb-30">
+							<li><b>BORN : </b>June 13, 1998</li>
+							<li><b>EMAIL : </b>maplaplana13@gmail.com</li>
+							<li><b>MARITAL STATUS : </b>Single</li>
+						</ul>
+						<ul class="social-icons">
+							<li><a href="https://github.com/migzerino" target="_blank" rel="noopener noreferrer"><i
+										class="ion-social-github"></i></a></li>
+							<li><a href="https://linkedin.com/in/migz-laplana" target="_blank"
+									rel="noopener noreferrer"><i class="ion-social-linkedin"></i></a>
+							</li>
+							<li><a href="https://www.facebook.com/themigzter/" target="_blank"
+									rel="noopener noreferrer"><i class="ion-social-facebook"></i></a></li>
+							<!-- <li><a href="#"><i class="ion-social-twitter"></i></a></li> -->
+						</ul>
+					</div><!-- intro -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- intro-section -->
+
+	<section class="portfolio-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Portfolio</b></h3>
+						<h6 class="font-lite-black"><b>MY WORK</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<div class="portfolioFilter clearfix margin-b-80">
+						<a href="#" data-filter="*" class="current"><b>ALL</b></a>
+						<a href="#" data-filter=".deployed"><b>DEPLOYED</b></a>
+						<a href="#" data-filter=".developing"><b>IN DEVELOPMENT</b></a>
+					</div><!-- portfolioFilter -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+
+		<div class="portfolioContainer">
+
+			<div class="p-item deployed">
+				<div class="proj-box">
+					<a target="_blank" rel="noopener noreferrer" href="https://whatsapp-mern-proj.web.app/"
+						data-fluidbox>
+						<img src="images/whatsapp-proj.PNG" alt="">
+						<div class="overlay">
+							<div class="text">
+								<h4>WhatsApp Clone</h4>
+								<p>MERN</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div><!-- p-item -->
+
+			<div class="p-item developing">
+				<div class="proj-box">
+					<a target="_blank" rel="noopener noreferrer" data-fluidbox>
+						<img src="images/developing-proj.PNG" alt="">
+						<div class="overlay">
+							<div class="text">
+								<h4>Company Payroll System</h4>
+								<p>Express, MongoDB</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div><!-- p-item -->
+
+			<div class="p-item developing">
+				<div class="proj-box">
+					<a target="_blank" rel="noopener noreferrer" data-fluidbox>
+						<img src="images/developing-proj.PNG" alt="">
+						<div class="overlay">
+							<div class="text">
+								<h4>Amazon Clone</h4>
+								<p>React, Firebase</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div><!-- p-item -->
+			<div class="p-item deployed">
+				<div class="proj-box">
+					<a target="_blank" rel="noopener noreferrer" href="https://secrets-posting.herokuapp.com/"
+						data-fluidbox>
+						<img src="images/secrets-proj.PNG" alt="">
+						<div class="overlay">
+							<div class="text">
+								<h4>Secrets Posting Page</h4>
+								<p>Express, PassportJS/OAuth</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div><!-- p-item -->
+			<div class="p-item deployed">
+				<div class="proj-box">
+					<a target="_blank" rel="noopener noreferrer" href="https://basic-blogu.herokuapp.com/"
+						data-fluidbox>
+						<img src="images/blog-proj.PNG" alt="">
+						<div class="overlay">
+							<div class="text">
+								<h4>Blog Website</h4>
+								<p>Express, MongoDB</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div><!-- p-item -->
+			<div class="p-item deployed">
+				<div class="proj-box">
+					<a target="_blank" rel="noopener noreferrer" href="https://secure-cliffs-72499.herokuapp.com/"
+						data-fluidbox>
+						<img src="images/todolist-proj.PNG" alt="">
+						<div class="overlay">
+							<div class="text">
+								<h4>To-do List</h4>
+								<p>Express, MongoDB</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div><!-- p-item -->
+			<div class="p-item deployed">
+				<div class="proj-box">
+					<a target="_blank" rel="noopener noreferrer" href="https://lit-ravine-48036.herokuapp.com/"
+						data-fluidbox>
+						<img src="images/mailchimp-proj.PNG" alt="">
+						<div class="overlay">
+							<div class="text">
+								<h4>Newsletter (MailChimp)</h4>
+								<p>Express, MailChimp API</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div><!-- p-item -->
+
+			<div class="p-item deployed">
+				<div class="proj-box">
+					<a target="_blank" rel="noopener noreferrer" href="https://migzerino.github.io/tindog-landing-page/"
+						data-fluidbox>
+						<img src="images/landing-proj.PNG" alt="">
+						<div class="overlay">
+							<div class="text">
+								<h4>Mock Product Landing Page</h4>
+								<p>Bootstrap</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div><!-- p-item -->
+			<div class="p-item deployed">
+				<div class="proj-box">
+					<a target="_blank" rel="noopener noreferrer" href="https://migzerino.github.io/simon-game/"
+						data-fluidbox>
+						<img src="images/simon-proj.PNG" alt="">
+						<div class="overlay">
+							<div class="text">
+								<h4>Simon Game</h4>
+								<p>jQuery</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div><!-- p-item -->
+			<div class="p-item deployed">
+				<div class="proj-box">
+					<a target="_blank" rel="noopener noreferrer" href="https://migzerino.github.io/drumkit/"
+						data-fluidbox>
+						<img src="images/drumkit-proj.PNG" alt="">
+						<div class="overlay">
+							<div class="text">
+								<h4>Singlepage Drum Kit</h4>
+								<p>jQuery</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div><!-- p-item -->
+
+
+
+
+
+
+
+
+		</div><!-- portfolioContainer -->
+
+	</section><!-- portfolio-section -->
+
+
+	<section class="about-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>About me</b></h3>
+						<h6 class="font-lite-black"><b>PROFESSIONAL PATH</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<p class="margin-b-50">Hi there! I'm Migz, computer engineer and full-stack web developer. I'm an
+						adept engineer that solves problems with your networking, database or software for your company.
+						I'm also a full-stack web developer that creates websites and web applications for people with
+						needs. If you need an afforable developer for your essential startup website, or a dependable
+						software engineer for your company, send me an email and let's work things out!</p>
+
+					<div class="row">
+
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".92">
+									<div></div>
+									<h6 class="progress-title">BACKEND WITH JS</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".73">
+									<div></div>
+									<h6 class="progress-title">FRONTEND DEV</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-50">
+								<div class="radial-progress" data-prog-percent=".82">
+									<div></div>
+									<h6 class="progress-title">SQL and NoSQL</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-50">
+								<div class="radial-progress" data-prog-percent=".69">
+									<div></div>
+									<h6 class="progress-title">HARDWARE AND NETWORKING</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+
+
+					</div><!-- row -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- about-section -->
+
+	<section class="experience-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Work Experience</b></h3>
+						<h6 class="font-lite-black"><b>PREVIOUS JOBS</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+
+					<div class="experience margin-b-50">
+						<h4><b>SOFTWARE DEVELOPER INTERN</b></h4>
+						<h5 class="font-yellow"><b>ISUZU AUTOMOTIVE DEALERSHIP INC.</b></h5>
+						<h6 class="margin-t-10">JUNE 2019 - AUG 2019</h6>
+						<p class="font-semi-white margin-tb-30">Completed internship in the Information Systems
+							Department of Isuzu Automotive Dealership Inc as part of a software development team that
+							developed the e-PAS Web Application using ASP.NET Core with Entity Framework program that
+							was needed by the company. </p>
+						<ul class="list margin-b-30">
+							<li>C# Application Development with WinForm</li>
+							<li>Web Development with .NET Core</li>
+							<li>Database Management with MS SQL</li>
+						</ul>
+					</div><!-- experience -->
+
+
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+
+	</section><!-- experience-section -->
+
+	<section class="education-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Education</b></h3>
+						<h6 class="font-lite-black"><b>ACADEMIC CAREER</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<div class="education-wrapper">
+						<div class="education margin-b-50">
+							<h4><b>BS COMPUTER ENGINEERING</b></h4>
+							<h5 class="font-yellow"><b>DE LA SALLE UNIVERSITY - DASMARINAS</b></h5>
+							<h6 class="font-lite-black margin-t-10">GRADUATED IN 2020 (5 YEARS)</h6>
+							<p class="margin-tb-30">
+								Took the course of Bachelor of Science in Computer Engineering starting from 2015 to
+								2020, which taking the specialization track of Software Development and Database
+								Management. Many programming languages were studied and used while studying in the
+								program, such as Java, C++, PHP, and SQL. There were also hardware fundamentals built
+								upon such as handling circuitry and microcontrollers, while programming with Arduino and
+								Raspberry Pi.
+							</p>
+						</div><!-- education -->
+
+						<!-- <div class="education margin-b-50">
+							<h4><b>COURSE ON COMPUTER SCIENCE</b></h4>
+							<h5 class="font-yellow"><b>NEW YORK PUBLIC UNIVERSITY</b></h5>
+							<h6 class="font-lite-black margin-t-10">GRADUATED IN MAY 2009(6 MONTHS)</h6>
+							<p class="margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque
+								sit amet sodales.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que
+								velit,
+								quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu,
+								eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p>
+						</div> -->
+
+
+					</div><!-- education-wrapper -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+
+	</section><!-- about-section -->
+
+	<section class="counter-section" id="counter">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<div class="counter margin-b-30">
+						<h1 class="title"><b><span class="counter-value" data-duration="1000"
+									data-count="9">0</span></b>
+						</h1>
+						<h5 class="desc"><b>Seminars Attended</b></h5>
+					</div><!-- counter -->
+				</div><!-- col-md-3-->
+
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<div class="counter margin-b-30">
+						<h1 class="title"><b><span class="counter-value" data-duration="1200"
+									data-count="15">0</span></b></h1>
+						<h5 class="desc"><b>Finished Projects</b></h5>
+					</div><!-- counter -->
+				</div><!-- col-md-3-->
+
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<div class="counter margin-b-30">
+						<h1 class="title"><b><span class="counter-value" data-duration="1000"
+									data-count="4">0</span></b>
+						</h1>
+						<h5 class="desc"><b>Academic Certificates</b></h5>
+					</div><!-- counter -->
+				</div><!-- col-md-3-->
+
+				<div class="col-sm-6 col-md-6 col-lg-3">
+					<div class="counter margin-b-30">
+						<h1 class="title"><b><span class="counter-value" data-duration="800"
+									data-count="57">0</span></b></h1>
+						<h5 class="desc"><b>Programs Coded</b></h5>
+					</div><!-- margin-b-30 -->
+				</div><!-- col-md-3-->
+
+			</div><!-- row-->
+		</div><!-- container-->
+	</section><!-- counter-section-->
+
+	<footer>
+		<p class="copyright">
+			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			Copyright &copy;
+			<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with
+			<i class="ion-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+		</p>
+
+
+	</footer>
+
+
+	<!-- SCIPTS -->
+
+	<script src="common-js/jquery-3.2.1.min.js"></script>
+
+	<script src="common-js/tether.min.js"></script>
+
+	<script src="common-js/bootstrap.js"></script>
+
+	<script src="common-js/isotope.pkgd.min.js"></script>
+
+	<script src="common-js/jquery.waypoints.min.js"></script>
+
+	<script src="common-js/progressbar.min.js"></script>
+
+	<script src="common-js/jquery.fluidbox.min.js"></script>
+
+	<script src="common-js/scripts.js"></script>
+
+</body>
+
+</html>
